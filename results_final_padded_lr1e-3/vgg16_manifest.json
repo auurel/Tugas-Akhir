@@ -1,0 +1,16 @@
+{
+  "signature": "b63a80d29d563338b0fbe2c7855df1e9bb30bc2734ac89f32061b6cde9774a29",
+  "config": {
+    "version": "padded_lr1e-3_v1",
+    "img_size": 224,
+    "batch_size": 32,
+    "lr_before": 0.001,
+    "lr_finetune": 0.0001,
+    "early_stop_patience": 5,
+    "max_epochs": 30,
+    "rotation_degrees": 15,
+    "seed": 42,
+    "split": "combined_pool_deduplicated_stratified_80_10_10",
+    "resize": "aspect_preserving_centered_black_padding"
+  }
+}
